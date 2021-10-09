@@ -5,7 +5,7 @@ const ProductComponent = () => {
   const products = useSelector((state) => state.allProducts.products);
   const renderList = products.map((product) => {
     return (
-      <div className="four column wide" key={product.id}>
+      <div className="four wide column" key={product.id}>
         <div className="ui link cards">
           <div className="card">
             <div className="image">
